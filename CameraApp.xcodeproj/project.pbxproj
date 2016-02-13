@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5A65231C670A5400BA881A /* ImageRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A65221C670A5400BA881A /* ImageRotation.swift */; };
 		3FDFACAD1C4FC0CC0012EC89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFACAC1C4FC0CC0012EC89 /* AppDelegate.swift */; };
 		3FDFACAF1C4FC0CC0012EC89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFACAE1C4FC0CC0012EC89 /* ViewController.swift */; };
 		3FDFACB21C4FC0CC0012EC89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDFACB01C4FC0CC0012EC89 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5A65221C670A5400BA881A /* ImageRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRotation.swift; sourceTree = "<group>"; };
 		3FDFACA91C4FC0CC0012EC89 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDFACAC1C4FC0CC0012EC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FDFACAE1C4FC0CC0012EC89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				3FDFACAC1C4FC0CC0012EC89 /* AppDelegate.swift */,
 				3FDFACAE1C4FC0CC0012EC89 /* ViewController.swift */,
+				3F5A65221C670A5400BA881A /* ImageRotation.swift */,
 				3FDFACB01C4FC0CC0012EC89 /* Main.storyboard */,
 				3FDFACB31C4FC0CC0012EC89 /* Assets.xcassets */,
 				3FDFACB51C4FC0CC0012EC89 /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FDFACAF1C4FC0CC0012EC89 /* ViewController.swift in Sources */,
+				3F5A65231C670A5400BA881A /* ImageRotation.swift in Sources */,
 				3FDFACAD1C4FC0CC0012EC89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +393,7 @@
 				3FDFACC81C4FC0CD0012EC89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FDFACC91C4FC0CD0012EC89 /* Build configuration list for PBXNativeTarget "CameraAppTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +402,7 @@
 				3FDFACCB1C4FC0CD0012EC89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
